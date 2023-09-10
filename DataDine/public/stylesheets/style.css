@@ -1,3 +1,33 @@
+/* 
+layout colors 
+Orange layout shades:
+#fd7e14
+#190d02
+#fed8b9
+
+Teal shades:
+#12b886 
+#d0f1e7
+#04251b
+
+Footer : 
+#190d02
+#04251b
+
+TYPE SCALE EXAMPLES
+
+
+3.052rem/36.62px	A Visual Type Scale
+2.441rem/29.30px	A Visual Type Scale
+1.953rem/23.44px	A Visual Type Scale
+1.563rem/18.75px	A Visual Type Scale
+1.25rem/15.00px	A Visual Type Scale
+1rem/12.00px	A Visual Type Scale
+*/
+html {
+  font-size: 12px;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
