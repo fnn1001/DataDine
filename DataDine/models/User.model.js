@@ -1,26 +1,32 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 
-const orderSchema = new mongoose.Schema(
+// TODO: Please make sure you edit the User model to whatever makes sense in this case
+const userSchema = new Schema(
   {
-    contact: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+    username: {
+      type: String,
+      trim: true,
+      required: false,
+      unique: true,
+    },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+      trim: true,
+    },
+    password: {
+      type: String,
       required: true,
     },
-    items: [
-      {
-        itemName: String,
-        quantity: Number,
-        price: Number,
-      },
-    ],
-    totalPrice: Number,
   },
   {
+    // this second object adds extra properties: `createdAt` and `updatedAt`
     timestamps: true,
   }
 );
 
-const Order = mongoose.model("Order", orderSchema);
+const User = model("User", userSchema);
 
-module.exports = Order;
+module.exports = User;
