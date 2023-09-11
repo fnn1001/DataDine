@@ -1,24 +1,21 @@
 const mongoose = require("mongoose");
 const itemSchema = new mongoose.Schema(
-    {
-        itemName: String,
+  {
+    itemName: String,
 
-        itemDescription: String,
+    itemDescription: String,
 
-        itemCategory: String,
+    itemCategory: String,
 
-        itemPrice: Number,
+    itemPrice: Number,
 
-        itemImageURL: String,
+    itemImageURL: String,
+  }
+  //   ,
 
-
-
-
-    },
-    {
-        timestamps: true,
-    }
-    );
+  //   {
+  //     timestamps: true,
+  //   }
+);
 const Item = mongoose.model("Item", itemSchema);
 module.exports = Item;
-

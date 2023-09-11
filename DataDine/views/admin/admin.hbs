@@ -1,30 +1,48 @@
 <div id="add-meals-form">
-  <h2>Log In</h2>
-  <form action="/add-meals-form" method="POST">
+  <h2>Add Meal</h2>
+  <form action="/admin/add-meals-form" method="POST">
 
-    <label> Meal
+    <label>
+      Meal
       <input type="text" name="itemName" placeholder="Enter the meal" />
     </label>
 
-    <label> Description
-      <input type="text" name="itemDescription" placeholder="Enter the description" />
+    <label>
+      Description
+      <input
+        type="text"
+        name="itemDescription"
+        placeholder="Enter the description"
+      />
     </label>
 
-    <label> Category
-      <input type="text" name="itemCategory" placeholder="choose your catagory" />
+    <label>
+      Category
+      <input
+        type="text"
+        name="itemCategory"
+        placeholder="choose your catagory"
+      />
     </label>
-     <label> Price
+    <label>
+      Price
       <input type="number" name="itemPrice" placeholder="Price" />
     </label>
-    <img class="product-img" src="{{this.itemImageURL}}" />
+    <label>
+      ImageURL:
+      <input type="url" name="itemImageURL" />
+    </label>
 
-    
-
-    <button type="submit">Log In</button>
-
+    <button type="submit">add</button>
 
     {{#if errorMessage}}
       <p class="error">{{errorMessage}}</p>
     {{/if}}
   </form>
+
+  <div id="data-display">
+    {{#each data}}
+      <p>{{this}}</p>
+    {{/each}}
+  </div>
 </div>
