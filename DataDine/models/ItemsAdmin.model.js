@@ -3,17 +3,15 @@ const itemSchema = new mongoose.Schema(
     {
         itemName: String,
 
-
-        itemPrice: Number,
-
-
         itemDescription: String,
 
+        itemCategory: String,
+
+        itemPrice: Number,
 
         itemImageURL: String,
 
 
-        itemCategory: String,
 
 
     },
