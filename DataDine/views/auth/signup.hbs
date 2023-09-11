@@ -1,7 +1,11 @@
-<div id="form">
+<div id="sign-up-form">
   <h2>Sign Up</h2>
   <form action="/auth/signup" method="POST">
-
+  <div class="account-exists">
+    <p >Already got an account? <a class = "login-link" href="/auth/login">Log In</a></p>
+  </div>
+  
+  <a class="popup-close">&times;</a>
     <label>
       Username
       <input type="text" name="username" placeholder="Your username" />
