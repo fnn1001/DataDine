@@ -40,3 +40,42 @@ a {
 h1 {
   color: 15px;
 }
+
+.logo{
+  width: 100px;
+  height: 100px;
+  
+}
+.login{
+  width: 100px;
+  height: 100px;
+  
+}
+
+/*LOGO box*/
+.link-box {
+  display: inline-block;
+  background-color: #fd7e14;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.link-box a {
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.data, .dine {
+  display: inline-block;
+  padding: 2px 5px;
+  border: 1px solid black; /* 1px wide border around the words */
+}
+
+.data {
+  color: white;
+  background-color: black;
+}
+
+.dine {
+  color: black;
+  background-color: #fd7e14; /* Orange color */
+}
