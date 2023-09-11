@@ -66,6 +66,7 @@ h1 {
 .dine {
   display: inline-block;
   padding: 2px 5px;
+
   border: 1px solid black; /* 1px wide border around the words */
 }
 
@@ -79,7 +80,25 @@ h1 {
   background-color: #fd7e14; /* Orange color */
 }
 /*/////////// MEAL-IMAGES */
-
+#data-display {
+  display: flex;
+  flex-direction: column;
+}
 .meal-img {
-  width: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  height: 140px;
+  border-radius: 10px;
+}
+.list-created-meal {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: solid 2px black;
+}
+.description {
+  width: 45%;
 }

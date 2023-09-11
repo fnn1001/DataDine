@@ -44,7 +44,16 @@
 <div id="data-display">
   should be here
   {{#each dataFood}}
-    <p>{{this.itemName}}</p>
-    <img class="meal-img" src="{{this.itemImageURL}}" />
+    <ul>
+      <li class="list-created-meal">
+
+        <p><strong>Name: </strong>{{this.itemName}}</p>
+        <p class="description"><strong>Description:
+          </strong>{{this.itemDescription}}</p>
+        <p><strong>Category: </strong>{{this.itemCategory}}</p>
+        <p><strong>Price $ </strong> {{this.itemPrice}}</p>
+        <img class="meal-img" src="{{this.itemImageURL}}" />
+      </li>
+    </ul>
   {{/each}}
 </div>
