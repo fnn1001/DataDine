@@ -1,37 +1,42 @@
 <div id="add-meals-form">
   <h2>Add Meal</h2>
   <form action="/admin/add-meals-form" method="POST">
+    <div class="form-flex1">
 
-    <label>
-      Meal
-      <input type="text" name="itemName" placeholder="Enter the meal" />
-    </label>
+      <label>
+        Meal
+        <input type="text" name="itemName" placeholder="Enter the meal" />
+      </label>
 
-    <label>
-      Description
-      <input
-        type="text"
-        name="itemDescription"
-        placeholder="Enter the description"
-      />
-    </label>
+      <label>
+        Description
+        <input
+          type="text"
+          name="itemDescription"
+          placeholder="Enter the description"
+        />
+      </label>
 
-    <label>
-      Category
-      <input
-        type="text"
-        name="itemCategory"
-        placeholder="choose your catagory"
-      />
-    </label>
-    <label>
-      Price
-      <input type="number" name="itemPrice" placeholder="Price" />
-    </label>
-    <label>
-      ImageURL:
-      <input type="url" name="itemImageURL" />
-    </label>
+    </div>
+    <div class="form-flex2">
+
+      <label>
+        Category
+        <input
+          type="text"
+          name="itemCategory"
+          placeholder="choose your catagory"
+        />
+      </label>
+      <label>
+        Price
+        <input type="number" name="itemPrice" placeholder="Price" />
+      </label>
+      <label>
+        ImageURL:
+        <input type="url" name="itemImageURL" />
+      </label>
+    </div>
 
     <button type="submit">add</button>
 

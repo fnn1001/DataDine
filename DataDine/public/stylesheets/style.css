@@ -36,10 +36,10 @@ TYPE SCALE EXAMPLES
 */
 
 @font-face {
-  font-family: 'Ubuntu';
-  src: url('/fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
-    url('/fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
-    url('/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: url("/fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype"),
+    url("/fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype"),
+    url("/fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -53,7 +53,7 @@ html {
 
 body {
   padding: 50px;
-  font: 14px 'Ubuntu', sans-serif;
+  font: 14px "Ubuntu", sans-serif;
   background-color: #ffffff;
   padding: 0;
   margin-left: 110px;
@@ -81,7 +81,6 @@ h1 {
 
 ul {
   list-style: none;
-
 }
 
 /*LOGO box*/
@@ -113,7 +112,7 @@ ul {
   /*border: 1px solid black;*/
   /* 1px wide border around the words */
   padding: 10px 25px;
-  border: 1px solid #29B298;
+  border: 1px solid #29b298;
 }
 
 .dine {
@@ -122,7 +121,7 @@ ul {
 
 .data {
   color: white;
-  background-color: #29B298;
+  background-color: #29b298;
 }
 
 .dine {
@@ -132,6 +131,13 @@ ul {
 }
 
 /*/////////// MEAL-IMAGES */
+
+#add-meals-form {
+  margin-top: 15%;
+}
+#add-meals-form form {
+  width: 100%;
+}
 #data-display {
   display: flex;
   flex-direction: column;
@@ -202,12 +208,11 @@ header {
 .icon {
   display: inline-block;
   align-items: center;
-  background-color: #29B298;
+  background-color: #29b298;
   padding: 10px 15px;
   border-radius: 2.8rem;
   margin-right: 20px;
 }
-
 
 /* LOGIN FORM */
 #login-form {
@@ -310,7 +315,6 @@ header {
 .account-exists {
   text-align: center;
   font-size: 13px;
-
 }
 
 .login-link {
@@ -340,7 +344,7 @@ header {
 
 .get-started-btn {
   margin: auto;
-  background-color: #29B298;
+  background-color: #29b298;
   display: inline-block;
   align-items: center;
   padding: 1.5rem 3rem;
@@ -367,7 +371,6 @@ header {
 }
 
 #category-menu ul {
-
   align-items: center;
   padding: 15px;
 }
@@ -421,7 +424,7 @@ header {
 }
 
 .add-to-cart-button {
-  background-color: #29B298;
+  background-color: #29b298;
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -441,7 +444,6 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
 }
 
 .prev-btn {
@@ -468,7 +470,6 @@ svg {
   margin-top: 0;
   font-size: 4rem;
 }
-
 
 footer {
   background-color: #1d1d1d;
