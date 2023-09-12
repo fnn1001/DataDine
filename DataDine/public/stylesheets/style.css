@@ -65,7 +65,7 @@ h2 {
   text-align: center;
 }
 
-<<<<<<< HEAD h1 {
+h1 {
   color: 15px;
 }
 
@@ -77,20 +77,21 @@ h2 {
 .login {
   width: 100px;
   height: 100px;
+}
 
-  =======ul {
-    list-style: none;
-    >>>>>>>anastasiia
-  }
+ul {
+  list-style: none;
 
-  /*LOGO box*/
+}
 
-  .logo img {
-    width: 24em;
-    height: 7em;
-  }
+/*LOGO box*/
 
-  /*.link-box {
+.logo img {
+  width: 24em;
+  height: 7em;
+}
+
+/*.link-box {
   display: inline-block;
   background-color: #ffa31a;
   padding: 5px;
@@ -104,59 +105,61 @@ h2 {
 }
 */
 
-  .data,
-  .dine {
-    display: inline-block;
+.data,
+.dine {
+  display: inline-block;
+  /*padding: 2px 5px;*/
 
-    border: 1px solid black;
-    /* 1px wide border around the words */
-    padding: 10px 25px;
-    border: 1px solid #29B298;
-  }
+  /*border: 1px solid black;*/
+  /* 1px wide border around the words */
+  padding: 10px 25px;
+  border: 1px solid #29B298;
+}
 
-  .dine {
-    border: none;
-  }
+.dine {
+  border: none;
+}
 
-  .data {
-    color: white;
-    background-color: #29B298;
-  }
+.data {
+  color: white;
+  background-color: #29B298;
+}
 
-  .dine {
-    color: black;
-    background-color: #fd7e14;
-    /* Orange color */
-  }
+.dine {
+  color: black;
+  background-color: #fd7e14;
+  /* Orange color */
+}
 
-  /*/////////// MEAL-IMAGES */
-  #data-display {
-    display: flex;
-    flex-direction: column;
-  }
+/*/////////// MEAL-IMAGES */
+#data-display {
+  display: flex;
+  flex-direction: column;
+}
 
-  .meal-img {
-    display: flex;
-    flex-direction: row;
-    width: 220px;
-    height: 140px;
-    border-radius: 10px;
-  }
+.meal-img {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  height: 140px;
+  border-radius: 10px;
+}
 
-  .list-created-meal {
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10px;
-    border-bottom: solid 2px black;
-  }
+.list-created-meal {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: solid 2px black;
+}
 
-  .description {
-    width: 45%;
-  }
+.description {
+  width: 45%;
+}
 
-  background-color: #ffa31a;
+/*
+background-color: #ffa31a;
 }
 
 */
